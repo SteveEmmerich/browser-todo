@@ -1,6 +1,6 @@
-# Task draft — not yet assigned
+# Pilot task and recorded handoff
 
-Proposed issue title: Build the browser-local React todo pilot
+Issue: [SteveEmmerich/browser-todo#1](https://github.com/SteveEmmerich/browser-todo/issues/1) — Build the browser-local React todo pilot
 
 ## Request and scope
 
@@ -8,18 +8,18 @@ Implement a simple React/TypeScript todo app using the existing approved Vite an
 
 Acceptance criteria: [docs/journeys.md](journeys.md), version 1, journeys TODO-001 through TODO-003. The criteria include actual reload persistence and explicit storage-failure handling. No filters, editing, dates, accounts, synchronization, or additional framework.
 
-## Execution record to establish before implementation
+## Execution record established before implementation
 
-- Actual external task ID/source URL: pending creation of the approved public `SteveEmmerich/browser-todo` repository and its issue.
+- Actual external task ID/source URL: [SteveEmmerich/browser-todo#1](https://github.com/SteveEmmerich/browser-todo/issues/1).
 - Requested owner: this Codex Developer, under the human's existing instruction to handle planning, implementation, and testing.
-- Actual Developer thread ID exposed by the current runtime: `01a15fa8-c8ef-74e3-ad09-3239baef1bf2`. Its external association is still pending; this does not identify the dedicated Huginn thread.
-- Baseline source commit: `11277327aacbe3d0235e57a3555383948029b05c` (standards pin, journey contract, and observed Developer identity).
-- Prepared attempt UUID: `03e81f33-91dc-48ab-9c14-39543bf51c3f`. This is a planned attempt; assignment is pending the external issue record.
+- Actual Developer thread ID exposed by the current runtime: `01a15fa8-c8ef-74e3-ad09-3239baef1bf2`. This does not identify the dedicated Huginn thread.
+- Remote baseline source commit: `5266a23a54b16c0670b85b4b1526f9b561b197f2` (standards pin, journey contract, and observed Developer identity). The local planning history was preserved on the local main branch; implementation starts from this remote baseline.
+- Attempt UUID: `03e81f33-91dc-48ab-9c14-39543bf51c3f`.
 - Target agent provider: Codex; execution environment: this local Windows workspace.
-- External association record/permalink: pending; this file is not that record.
-- Dispatch/assignment: not established by this draft.
+- External association record/permalink: the issue body above records the task scope, owner, attempt, thread and environment and was fetched back before coding.
+- Dispatch/assignment: manually assigned under the human's instruction in this existing Developer chat. Hlidskalf did not automatically dispatch it.
 
-The human approved public visibility for `SteveEmmerich/browser-todo`. Hlidskalf currently reads public GitHub sources without private authentication. The connector is authenticated and can create issues, but exposes no repository-creation action. The repository lookup returned 404, and both available browsers opened GitHub's sign-in page. Creation is waiting for the human to sign in in the prepared Chrome tab. No credentials or repository access have been changed, and application implementation has not started.
+The human approved public visibility for `SteveEmmerich/browser-todo` and signed in to the browser to permit repository creation. The public repository was created through GitHub's web interface; task and source records were created using the authenticated connector. No credentials were extracted. Source review, workflow protection, independent review and human acceptance remain separate from this recorded assignment.
 
 ## Planned sequence
 
