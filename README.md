@@ -13,3 +13,5 @@ Use Node 24 and npm. Run `npm ci`, `npm test`, and `npm run build`. Run `npm run
 For the manual storage-denial browser check, run `node tests/browser-fixture.mjs` after building and open `http://127.0.0.1:1422/`. This is an explicitly labelled verification harness, not an application backend: an iframe's opaque origin denies the unchanged production bundle access to real browser storage. Corrupt-data and write-quota cases in the Node tests use injected storage fixtures.
 
 See [journey criteria](docs/journeys.md) and [task draft](docs/task-draft.md). Engineering Standards 0.1.0 is pinned independently in standards.lock.json; its installed skills are under .agents/skills.
+
+Observed checks, bundle identity, genuine captures, and remaining review/acceptance gates are recorded in [verification](docs/verification.md). The implementation is in [draft PR #2](https://github.com/SteveEmmerich/browser-todo/pull/2), not merged into main.
